@@ -3,6 +3,9 @@ import pygame
 pygame.init()
 screen = pygame.display.set_mode((400, 300))
 pygame.display.set_caption("Hello, Pygame!")
+
+
+
 running = True
 while running:
     for event in pygame.event.get():
@@ -10,5 +13,5 @@ while running:
             running = False
     screen.fill((255, 255, 255))
     pygame.display.flip()
-    
+
 pygame.quit()
